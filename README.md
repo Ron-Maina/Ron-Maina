@@ -2,15 +2,10 @@
 <p id="header" align="center">
   <img src="https://media.giphy.com/media/EOmYN5kVP3W2Lyn6dx/giphy.gif" width="100"/>
 </p>
-<p id = "visits" align="center">
-<img src="https://komarev.com/ghpvc/?username=MathaiMarvin&style=flat-square&color=blue" alt=""/>
-</p>
-
 
 ### 
 
 <h1 align = "center">:hammer_and_wrench: Languages and Tools</h1>
-
 
   <div align = "center">
   <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg" title="React" alt="React" width="40" height="40"/>
