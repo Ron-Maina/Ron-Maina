@@ -2,6 +2,13 @@
 <p id="header" align="center">
   <img src="https://media.giphy.com/media/EOmYN5kVP3W2Lyn6dx/giphy.gif" width="100"/>
 </p>
+<div id="badges" align='center'>
+<a href="www.linkedin.com/in/ron-mwangi">
+ <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+</a>
+<div align="center">
+  <img src="https://img.freepik.com/free-psd/3d-nft-icon-developer-male-illustration_629802-6.jpg?w=740&t=st=1695988218~exp=1695988818~hmac=e7ffd8ba289eeb59a3d3014d036bb112596cfcab8ea8750f63ce1cf53e619df4" width="600" height="300"/>
+</div>
 
 ### 
 
