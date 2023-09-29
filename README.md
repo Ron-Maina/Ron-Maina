@@ -1,4 +1,6 @@
 <p align='center'>👋 Hi, I’m Ron Maina </p>
+<p align='center'>Full Stack Developer </p>
+
 <p id="header" align="center">
   <img src="https://media.giphy.com/media/EOmYN5kVP3W2Lyn6dx/giphy.gif" width="100"/>
 </p>
