@@ -45,6 +45,5 @@
 
 <br clear="both">
 
-<img src="https://raw.githubusercontent.com/Ron-Maina/Ron-Maina/output/snake.svg" alt="Snake animation" />
 
 ###
