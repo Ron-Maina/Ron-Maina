@@ -3,13 +3,12 @@
 name: Generate Snake
 
 # Controls when the action will run. This action runs every 6 hours.
-
 on:
   schedule:
-      # every 6 hours
+    # every 6 hours
     - cron: "0 */6 * * *"
 
-# This command allows us to run the Action automatically from the Actions tab.
+  # This command allows us to run the Action automatically from the Actions tab.
   workflow_dispatch:
 
 # The sequence of runs in this workflow:
@@ -21,11 +20,10 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-
-    # Checks repo under $GITHUB_WORKSHOP, so your job can access it
+      # Checks repo under $GITHUB_WORKSHOP, so your job can access it
       - uses: actions/checkout@v3
 
-    # Generates the snake  
+      # Generates the snake  
       - uses: Platane/snk@v3
         id: snake-gif
         with:
@@ -37,10 +35,22 @@ jobs:
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-     # show the status of the build. Makes it easier for debugging (if there's any issues).
+
+      # Show the status of the build. Makes it easier for debugging (if there's any issues).
       - name: Show build status
         run: git status
 
+      # Configure Git user
+      - name: Configure Git user
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      # Ensure clean working directory
+      - name: Clean working directory
+        run: git reset --hard
+
+      # Push new files to output branch 
       - name: Push new files to output branch 
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
